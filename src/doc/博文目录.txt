@@ -1,2 +1,5 @@
-hashmap����
+hashmap原理
 http://zhangshixi.iteye.com/blog/672697
+
+数据机构与算法
+http://blog.csdn.net/iaiti/article/category/1518587

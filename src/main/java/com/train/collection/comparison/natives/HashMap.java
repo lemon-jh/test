@@ -466,6 +466,7 @@ public class HashMap<K,V>
      *         previously associated <tt>null</tt> with <tt>key</tt>.)
      */
     public V put(K key, V value) {
+    	System.out.println(threshold);
         if (table == EMPTY_TABLE) {
             inflateTable(threshold);
         }

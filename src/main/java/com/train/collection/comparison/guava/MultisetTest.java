@@ -22,24 +22,24 @@ public class MultisetTest {
 //		
 //		System.out.println(multiSet.count("1"));
 		
-//		List<String> list = new ArrayList<String>();
-//		
-//		for(int i=0;i<10000000;i++){
-//			list.add(i+"");
-//		}
+		List<String> list = new ArrayList<String>();
 		
-		Map<String,Integer> map = new HashMap<String, Integer>();
-//		
-		for(int i=0;i<1000;i++){
-			map.put(i+"",i);
+		for(int i=0;i<10000000;i++){
+			list.add(i+"");
 		}
-
-		map.get(0+"");
 		
-		System.out.println(51 & 15);
-		System.out.println(51 & 31);
-		System.out.println(11118 & 15);
-		System.out.println(11118 & 15);
+//		Map<String,Integer> map = new HashMap<String, Integer>();
+////		
+//		for(int i=0;i<1000;i++){
+//			map.put(i+"",i);
+//		}
+//
+//		map.get(0+"");
+//		
+//		System.out.println(51 & 15);
+//		System.out.println(51 & 31);
+//		System.out.println(11118 & 15);
+//		System.out.println(11118 & 15);
 	}
 	
 }
